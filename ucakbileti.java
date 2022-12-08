@@ -26,7 +26,7 @@ public class Driver {
 		System.out.print("Tek Yön için = 1 yazın\nGidiş-Dönüş için = 2 yazın\nYolculuk tipi seçin: ");
 		typ = inp.nextInt();
 		
-		if(typ <= 0 && km >=3 ) {System.out.println("Hatalı veri girdiniz!");}
+		if(typ <= 0 && typ >=3 ) {System.out.println("Hatalı veri girdiniz!");}
 		
 		normTutar = km*0.10;
 		
